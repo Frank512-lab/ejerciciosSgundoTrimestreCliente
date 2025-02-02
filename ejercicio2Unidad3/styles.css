@@ -1,0 +1,58 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    
+
+}
+
+body{
+    
+    background-color: #F0F0F0;
+}
+h1 {
+    display:flex;    
+    justify-content: center;
+    background-color: #c3e8bd;
+    border-radius: 5px;
+
+}
+
+h2{
+    background-color: #45a049;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.contenedor-marcos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#8eb897 ;
+    margin-top: 150px;
+    border-radius:5px;
+}
+
+#tareasIframe, #estadoIframe{
+    
+    border: 2px solid black;
+    border-radius:5px;
+    margin:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    
+    
+}
+
+label {
+    line-height: 1;
+    display: block;
+    margin-bottom: 8px;
+
+}
+
+ul>li{
+    line-height: 2.2;
+    display: block;
+    margin-bottom: 10px;
+}
