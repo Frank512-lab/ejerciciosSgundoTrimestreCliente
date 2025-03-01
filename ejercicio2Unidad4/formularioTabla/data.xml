@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datos [
+    <!ELEMENT datos (registro)*>
+    <!ELEMENT registro (nombre , apellido1 , apellido2 , dni , 
+    telefono , email , codigo_postal , calle , numero , ciudad)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido1 (#PCDATA)>
+    <!ELEMENT apellido2 (#PCDATA)>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT codigo_postal (#PCDATA)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+]>
+<datos>
+    <registro>
+        <nombre>Ramón</nombre>
+        <apellido1>López</apellido1>
+        <apellido2>Pérez</apellido2>
+        <dni>23899332T</dni>
+        <telefono>34877892</telefono>
+        <email>ramon@gmail.com</email>
+        <codigo_postal>50196</codigo_postal>
+        <calle>Iglesia</calle>
+        <numero>33</numero>
+        <ciudad>Madrid</ciudad>
+    </registro>
+</datos>
